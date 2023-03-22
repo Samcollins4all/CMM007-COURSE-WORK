@@ -1,0 +1,1060 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+.successToast{
+    background-color: green;
+    color: white;
+}
+.errorToast{
+    background-color: red;
+    color: black;
+}
+
+#formNav{
+    width: 37%;
+    margin: 0 auto 0 auto;
+    border-radius: 50px;
+    background-color: gray;
+    z-index: 3;
+    color: black;
+} 
+#nav_wrap{
+    background-color: white;
+    border-radius: 50px;
+}
+.imageHolder{
+    width: 90vw;
+}
+#pageImages{
+    border-radius: 6px;
+    margin-bottom: 3vh;
+}
+#headerSection{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: 0.8rem;
+    margin-bottom: 2.5vh;
+}
+/* .loader{
+    position: relative;
+    top: 21rem; 
+} */
+/* .main{
+    margin: 9rem 0 0 6rem;
+} */
+h1{
+    text-align: left;
+    color: white;
+    font-weight: bolder;
+}
+.near{
+    margin-top: -1rem;
+}
+.directionBtn{
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    text-transform: capitalize;
+}
+.directionBtn:hover{
+    background-color: white;
+}
+#indexPageFooter{
+    width: 98.9vw;
+}
+#generalFooter{
+    position: relative;
+    top: 1.5rem;
+    /* width: 98.7vw; */
+}
+.searchForm{
+    display: flex;
+}
+
+#searchSection{
+    width: 92%;
+}
+
+#checkInDateContainDiv{
+    width: 10vw;
+    position: relative;
+    right: 30px;
+}
+
+#checkOutDateContainDiv{
+    width: 10vw;
+}
+input#search{
+    padding: 0 0 0 31px;
+    border-right: 1px solid gray;
+    margin-bottom: 30px;
+}
+input#search:hover{
+    background-color: rgb(237, 233, 233);
+    border-radius: 40px;
+    padding: 0 0 0 31px;    
+}
+.loc{
+    padding: 0 0 0 31px;
+    line-height: 1px;
+    cursor: pointer;
+    position: relative;
+    bottom: 110px;
+}
+
+.searchDisplayCtrl {
+    padding: 0 0 0 31px;
+    line-height: 1px;
+    cursor: pointer;
+    position: relative;
+    bottom: 110px;
+}
+
+input#checkInDateInput{
+    padding: 0 0 0 13px;
+    height: 7.7vh;
+    border-right: 1px solid grey;
+    position: relative;
+    left: 10px;
+    border-bottom: 0;
+    /* border-bottom: none; */
+}
+
+input#checkInDateInput:hover{
+    background-color: rgb(201, 197, 197);
+    border-radius: 40px;
+    margin-right: 90px;
+}
+#checkInDateIcon{
+    padding: 0 0 0 13px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 10px;
+    bottom: 90px;
+}
+input#checkOutDateInput{
+    padding: 0 0 0 31px;
+    border-right: 1px solid gray;
+    height: 7.7vh;  
+    border-bottom: 0;
+    /* border-bottom: none; */
+}
+input#checkOutDateInput:hover{
+    background-color: rgb(201, 197, 197);
+    padding: 0 0 0 31px;
+    border-radius: 40px;
+}
+#checkOutDateIcon{
+    padding: 0 0 0 60px;
+    cursor: pointer;
+    position: relative;
+    right: 29px;
+    bottom: 88px;
+    color: black;
+}
+input#addGuestsInput{
+    padding: 0 0 0 13px;
+    position: relative;
+    left: 36.3px;
+    height: 7.7vh;
+    border-radius: 40px;
+    border-bottom: 0;
+}
+input#addGuestsInput:hover{
+    background-color: rgb(201, 197, 197);
+    /* padding: 0 0 0 31px; */
+    border-radius: 40px;
+}
+#addGuestsIcon{
+    padding: 0 0 0 13px;
+    position: relative;
+    left: 38px;
+    bottom: 88px;
+    color: black;
+    cursor: pointer;
+}
+#searchBtn{
+    text-transform: capitalize;
+    position: relative;
+    top: 4px;
+    right: 9px;
+}
+/* index-page Experience nav */
+#searchSection2{
+    width: 28vw;
+}
+#checkInDateContainDiv2{
+    width: 21vw;
+}
+input#checkInSecondDateInput{
+    padding: 0 0 0 31px;
+    height: 7.7vh;  
+    border-bottom: 0;
+    position: relative;
+    right: 21px;
+}
+input#checkInSecondDateInput:hover{
+    background-color: rgb(201, 197, 197);
+    border-radius: 40px;
+    /* width: 100%; */
+    /* margin-right: 90px; */
+}
+
+#checkInDateIcon2{
+    padding: 0 0 0 13px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    bottom: 90px;
+}
+#logo{
+    margin: 0 0 0 80px;
+    font-size: 3rem;
+}
+#logo1{
+    margin: 0 0 0 8px;
+    font-size: 3rem;
+}
+#identy{
+    position: relative;
+    margin: 20px 700px 0 90px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#anotherIcon{
+    position: relative;
+    top: 1vh;
+    font-size: 3rem;
+}
+#search1_icon{
+    text-align: left;
+    display: inline-block;
+}
+#searchBtn1{    
+    background-color: transparent;
+}
+li#thirdForm{
+    position: relative;
+    top: 11px;
+    right: 600px;
+}
+.thirdFormContain{
+    border: 1px solid grey;
+    border-radius: 40px;
+    height: 5vh;
+    width: 24vw;
+}
+.thirdFormContain:hover{
+    box-shadow: 3px 3px rgb(201, 197, 197);
+}
+/* #thirdForm{
+    margin-top: 7px;
+    margin-right: 130px;
+} */
+#thirdFormSearch{
+    /* margin: 13px 30px; */
+    padding: 7px 150px 7px 10px;
+    color: black;
+}
+#searchBtn3{
+    position: relative;
+    right: 6px;
+    bottom: 36px;
+}
+#thirdFormIcon{
+    /* position: relative;
+    bottom: 1px; */
+    font-size: 1.1rem;
+}
+/* #resultMsg, #resultMsg1{
+    background-color: green;
+    z-index: 999;
+} */
+
+div.display{
+    width: 36.6vw;
+    background-color: white;
+    /* color: black; */
+    line-height: 30px;
+    position: relative;
+    bottom: 93px;
+
+    overflow-x: hidden;
+} 
+div#display1 {
+    width: 23.9vw;
+    background-color: white;
+    /* color: black; */
+    line-height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+div.directory{
+    margin-bottom: 4vh;
+}
+
+#firstNavText, #secondNavText{
+    margin-right: 21px;
+}
+div .firstBord, .secondBord, .thirdBord{
+    width: 3px;
+}
+div.directorySibsDiv{
+    display: inline-block;
+}
+div #firstNavText, #secondNavText, #thirdNavText{
+    color: #fff;
+}
+div #firstNavText:hover, #secondNavText:hover, #thirdNavText:hover{
+    color: rgb(228, 220, 220);
+}
+
+.thirdContainNav{
+    margin-left: 360px;
+    position: relative;
+    top: 30px;
+}
+.forthContainNav{
+    margin-left: 360px;
+    position: relative;
+    top: 30px;
+}
+div .placeToStay, .exp, .onExp{
+    color: rgb(77, 73, 73);
+    margin-right: 21px;
+}
+div .placeToStayBord, .expBord, .onExpBord{
+    width: 3px;
+}
+li#forthForm{
+    position: absolute;
+    top: 11px;
+    right: 60vw;
+}
+#searchPageContianDiv{
+    width: 90%;
+}
+#searchResPara{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#navbarContainDiv{
+    display: flex;
+}
+#personMainDiv a{
+    color: white;
+}
+#personId{
+    /* margin-bottom: 3rem; */
+    position: relative;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+#personBox{
+    /* margin-left: auto; */
+    width: 2vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: grey;
+    display: inline-block;
+}
+#personIcon{
+    /* text-align: center; */
+    font-size: 2rem;
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+}
+.file-path{
+    display: inline-block;
+}
+#ressult_img{
+    border-radius: 9px;
+    margin-top: 13px;
+}
+#title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#houseDetails{
+    margin-top: 13px;
+}
+#hRow{
+    width: 2vw;
+    margin-right: 30rem;
+    border-color: rgb(255, 255, 255);
+    
+}
+#hRow1{
+    border-color: rgb(255, 255, 255); 
+}
+/* #priceContainDiv{
+    margin-top: 60px;
+    line-height: 22px;
+    text-align: right;
+} */
+/* #mainPrice{
+    font-size: 1.3vw;
+} */
+#addNum{
+    text-decoration: underline;
+    color: rgb(139, 127, 127);
+}
+.successToast{
+    background-color: green;
+    color: white;
+}
+.errorToast{
+    background-color: red;
+    color: black;
+}
+#expNearContainDiv{
+    width: 90vw;
+    margin: 50vh auto 0 auto;
+}
+.expNearImgDiv{
+    display: flex;
+    margin-bottom: 1.9vh;
+    cursor: pointer;
+}
+.expNearImg{
+    border-radius: 13px;
+}
+.expNearTitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.expNearTextDiv{
+    font-size: 1.1rem;
+    margin: 1vh 0 0 1vw;
+    color: #000;
+}
+#notSureWhereToGoImgContainDiv{
+    background: url('../img/airbnbImg.jpg');
+    width: 88vw;
+    height: 60vh;
+    margin: 33vh auto 3vh auto;
+    border-radius: 13px;
+    cursor: pointer;
+}
+#notSureWhereToGoArticles{
+    width: 23%;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 10vh;
+    position: relative;
+    top: 15vh;
+}
+#notSureWhereToGoBtn{
+    width: 9vw;
+    height: 6vh;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Small Device navbar */
+#smallDeviceContainDiv{
+    height: 11vh; 
+    background-color: white; 
+    padding-top: 1.3vh;
+}
+#smallDInputContainDiv{
+    display: flex;
+    width: 90%;
+    margin: 0vh auto 0 auto;
+    border: 1px solid grey;
+    border-radius: 30px;    
+    background-color: white;
+}
+#smallDInput{
+    width: 80%;
+    border-bottom: none;
+}
+#smallDSearchIcon{
+    margin: 2vh;
+}
+
+a.expNearAnchorLink {
+    color: #000;
+}
+
+#search1 {
+    padding-left: 1rem !important;
+}
+#search1:focus {
+    border-radius: 40px;
+}
+
+a.aboutDrop, a.blogDrop, a.shopsDrop, a.authDrop {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 3.7vh;
+    color: #ffff;
+}
+
+a.userDrop {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 3vh;
+    color: #ffff;
+}
+
+a.aboutDrop:hover,
+a.blogDrop:hover,
+a.shopsDrop:hover,
+a.userDrop:hover,
+a.authDrop:hover {
+    font-size: 1.2rem;
+    color: rgb(225, 220, 220);
+}
+
+nav ul a.searchEngineLink {
+    width: 100vw;
+    color: #000;
+}
+
+.transNavLinkDiv {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.scrollableNavLink {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #e62e62;
+    padding-right: 1.5vw;
+}
+
+#thirdFormContain {
+    position: absolute;
+}
+
+.userAcctIcon {
+    position: relative;
+    top: 0.8vh;
+}
+
+.carousel {
+    height: 80vh;
+    /* width: 100vw; */
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /* z-index: -1; */
+}
+.carousel.carousel-slider .carousel-fixed-item {
+    position: absolute;
+    left: 5.5vw;
+    top: 250px;
+    z-index: 1;
+}
+
+#preloader {
+    position: relative;
+    top: 1vh;
+}
+
+#expNearOverallDiv {
+    margin-top: 63vh;
+}
+
+div#display2 {
+    width: 23.9vw;
+    background-color: white;
+    /* color: black; */
+    line-height: 30px;
+    position: relative;
+    bottom: 30px;
+    position: relative;
+    z-index: 99;
+}
+
+html, body {
+    z-index: -1;
+    position: relative;
+}
+
+button.gpsLocBtn {
+    /* background-color: transparent; */
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    /* line-height: 30px; */
+}
+button.gpsLocBtn:hover {
+    background-color: #b6d9c2;
+    border: 2px solid #b6d9c2;
+    cursor: pointer;
+}
+
+div.row.gpsContain {
+    width: 90%;
+    min-height: 90vh;
+    justify-content: center;
+    background-color: rgb(222, 219, 219);
+    margin-bottom: 0;
+}
+.gpsLocImg {
+    width: 100%;
+    height: 90vh;
+}
+img.resultImg {
+    width: 340px; 
+    height: 210px;
+    margin-top: 2vh;
+}
+
+#locSelectDiv {
+    height: 90vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.feedbackDiv {
+    padding: 4vh 0;
+}
+.giveFeedbackSidenavTrigg {
+    background-color: #dedbdb;
+    color: #000;
+    padding: 0.7rem 1.5rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.giveFeedbackSidenavTrigg:hover {
+    background-color: rgb(185, 183, 183);
+    color: #000;
+}
+.giveFeedbackTxt {
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.material-icons.giveFeedbackCloseIcon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+    top: 2vh;
+}
+.feedbackSidenavTxtDiv {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.feedbackSidenavTxt {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+.feedbackBoxMsg {
+    width: 90%;
+    margin: 3vh auto 0 auto;
+    box-shadow: 2px 2px 3px 3px rgb(228, 226, 226);
+    border-radius: 7px;
+    padding: 0.5vh 0;
+}
+.feedbackBoxTxt {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 30px;
+}
+.feedbackBoxMsg1 {
+    font-size: 0.9rem;
+    color: rgb(140, 139, 139);
+}
+.feedbackIcon {
+    cursor: pointer;
+    font-size: 2rem;
+}
+#exactPlace {
+    font-weight: 500;
+    line-height: 45px;
+}
+#houseD {
+    line-height: 20px;
+}
+.shopTimeFunc {
+    font-size: 1.1rem;
+    /* margin-top: 6vh; */
+}
+.shopTimeFunc1 {
+    font-weight: 600;
+    color: rgb(1, 113, 1);
+}
+a.giveFeedbackSidenavTrigg1 {
+    background-color: #dedbdb;
+    color: #000;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.giveFeedbackSidenavTrigg1:hover {
+    background-color: rgb(249, 245, 245);
+    color: #000;
+}
+a.giveFeedbackDelBtn {
+    background-color: #151515;
+    color: rgb(180, 21, 21);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgb(255, 0, 0);
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+a.giveFeedbackDelBtn:hover {
+    background-color: #d32121;
+    color: rgb(4, 4, 4);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+div.internalRecPassContainDiv {
+    background-color: #f3f6fa;
+    width: 30%;
+    margin: 130px auto 100px auto;
+    padding: 30px;
+}
+p.recPassEmailTxt {
+    width: 93%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+/* Feedback Section */
+.feedbackInnerBox {
+    display: flex;
+    width: 55%;
+    margin: 0 auto;
+}
+.feedbackTxtBox {
+    background-color: #dedbdb;
+    padding: 2vh 0;
+}
+.feedbackTxtArea {
+    width: 90%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    border: 0;
+    font-size: 0.9rem;
+}
+.feedbackTxtArea::placeholder {
+    color: #838282;
+}
+.feedbackTxtAreaPointer{
+    background-color: #dedbdb;
+    width: 1vw;
+    height: 2vh;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 36.5vh;
+    left: 9vw;
+}
+.feedbackTxt1 {
+    width: 95%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.feedbackFormBtn {
+    background-color: rgb(120, 120, 246);
+    border-radius: 30px;
+}
+.feedbackFormBtnDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.feedbackFormBtnMainDiv {
+    margin-top: 25vh;
+}
+
+.dashContainDiv {
+    background-color: #dedbdb;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.feedbackDashImg {
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+/* #navFooter {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+} */
+.contain {
+    width: 80%;
+    justify-content: center;
+}
+.dashTitle {
+    font-family: cursive;
+    /* margin-top: 7vh; */
+    font-weight: 700;
+}
+div.dashBckDiv {
+    background-color: #dedbdb;
+    width: 35vw;
+    height: 70vh;
+    padding: 20px,30px;
+    margin-top: 2vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+div.dashBckInnerDiv {
+    width: 90%;
+    margin: auto;
+    padding-top: 0.2vh;
+    position: relative;
+}
+hr.shortHr {
+    width: 6vw;
+    position: absolute;
+    left: 0;
+} 
+.dashfeedUpperDiv {
+    margin: 3vh 0;
+}
+.dashfeedtxt {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 0.7vh;
+}
+.dashfeedInnerDiv {
+    margin-left: 2vw;
+}
+.dashfeedtxtArea {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 0.7vh;
+    background-color: rgb(243, 237, 237);
+    width: 75%;
+    padding: 1vh 1vw;
+}
+.feedbackDashImg1 {
+    height: 45vh;
+    position: absolute;
+    right: 0;
+}
+#searchResPara1 {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 2rem;
+}
+div.dashBckDiv1 {
+    background-color: #dedbdb;
+    width: 40vw;
+    height: 70vh;
+    padding: 20px, 30px;
+    margin-top: 2vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+div.dashBckDiv1 {
+    background-color: #dedbdb;
+    width: 40vw;
+    height: 70vh;
+    padding: 20px, 30px;
+    margin-top: 2vh;
+
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* Contact Page */
+div.container.contactContainDiv {
+    margin-bottom: 63px;
+}
+div.row.InputInnerContactContainDiv {
+    margin-bottom: 0;
+}
+div.input-field.col.s12.m6.l6.txtareaDiv {
+    margin-bottom: 0;
+}
+p#contFirstTxt {
+    font-size: 2.3rem;
+    color: rgb(51, 49, 49);
+    margin: 50px 0 0 0;
+}
+input#contactFirstInput,
+input#contactSecondInput {
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    padding: 0 7px;
+    margin-top: 10px;
+}
+span.contactInputTxts {
+    font-weight: 500;
+}
+textarea#txtarea {
+    height: 20vh;
+    margin-top: 10px;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius: 5px;
+    padding: 13px;
+}
+button#contactBtn {
+    background-color: #757575;
+    margin-top: 9px;
+    margin-left: 13px;
+}
+button#contactBtn:hover {
+    background-color: rgba(256, 256, 256, 0);
+    color: #000;
+}
+#txtareaInput {
+    width: 69.5vw;
+    height: 20vh;
+}
+
+
+/* ABOUT US */
+p.aboutPageHeaderTxt {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+span.aboutPageSecondTxt {
+    color: rgb(92, 90, 90);
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+p.aboutSecondTxt {
+    color: rgb(71, 70, 70);
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+p.aboutPageThirdTxt {
+    margin-top: 3px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p.aboutPageForthTxt {
+    margin-top: 3px;
+    font-weight: 500;
+}
+
+div.iconsContainDiv {
+    margin-top: 90px;
+}
+
+.fontawesome {
+    color: #4d97f3;
+}
+
+div.col.s12.m12.l3.center.fontawesomeDiv {
+    color: rgb(92, 90, 90);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+div.aboutPageTestmonDiv {
+    background-color: white;
+    padding: 50px 30px 10px 30px;
+    margin-bottom: 90px;
+    z-index: -1;
+}
+
+img.responsive-img.aboutPageTestmonImg {
+    width: 21%;
+    height: 9.5vh;
+    border-radius: 50%;
+    z-index: 999;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
+
+p.aboutPageTestimonTxt {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+p.aboutPageTestimonTxt1 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+hr.aboutPageHr {
+    width: 30px;
+    border-color: #4d97f3;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+p.aboutPageTestmonName {
+    margin-bottom: 0;
+}
+div.range {
+    background-color: #4d97f3;
+    width: 100%;
+    height: 2.5vh;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+hr.servicesPageHr {
+    width: 30px;
+    float: left;
+    border-color: #4d97f3;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+/* Small Device navbar */
+@media screen and (max-width: 480px){
+    ::placeholder{
+        color: rgb(87, 86, 86);
+    }
+    /* #notSureWhereToGoArticles{
+        width: 80%;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 0vw;
+        position: relative;
+        top: 15vh;
+    } */
+}
